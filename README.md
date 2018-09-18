@@ -10,7 +10,7 @@ See Quill ImageResize Module documentation in [here](https://github.com/kensnyde
 - Download [image-resize.min.js](https://github.com/khasburrahman/quill-image-resize-module-fix-imports-error/raw/master/image-resize.min.js). 
 - Save in your project directory 
 - import it in your project using `import ImageResize from '<path_to_the_module>';`
-- if encounter a warning message `quill Overwriting modules/imgageResize with ƒ` please remove `Quill.register('modules/imageResize', ImageResize);`it is already registered through the script
+- if encounter a warning message `quill Overwriting modules/imgageResize with ƒ` try remove `Quill.register('modules/imageResize', ImageResize);`
 
 # Drawback 
 
